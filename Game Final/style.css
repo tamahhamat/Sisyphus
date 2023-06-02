@@ -1,0 +1,74 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    height:100%;
+    width:100%;
+}
+
+body {
+    align-content:space-around;
+    background-color:#171615;
+    display:grid;
+    justify-content:center;
+}
+
+/* body{
+    background-image: url("startTemple.png");
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    width: auto;
+    max-height: 50%; 
+} */
+
+
+canvas {
+    position: relative;
+    width: 900px;
+    height: 648px; /*90% ratio*/
+    background-color:#ffffff;
+}
+
+    
+
+#character{
+    display: none;
+}
+
+#rock{
+    display: none;
+}
+
+#start{
+    display: block;
+    border-radius: 30px;
+    margin: 0;
+    
+    
+    
+
+}
+
+#startGame{
+    height: 100%;
+    width: 100%;
+    background-image: url(startTemple.png);
+    
+}
+
+#startText{
+    border-radius: 25px;
+    outline-color: black;
+    outline-style: double;
+    text-align: center;
+    color: black;
+    background-color: antiquewhite; 
+    opacity: 70%;
+       
+    
+}
+
