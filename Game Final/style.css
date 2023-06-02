@@ -16,15 +16,6 @@ body {
     justify-content:center;
 }
 
-/* body{
-    background-image: url("startTemple.png");
-    background-repeat: no-repeat, no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    width: auto;
-    max-height: 50%; 
-} */
-
 
 canvas {
     position: relative;
@@ -33,31 +24,30 @@ canvas {
     background-color:#ffffff;
 }
 
-    
 
-#character{
+#character{ /*so it doesnt show always*/
     display: none;
 }
 
-#rock{
+#rock{/*so it doesnt show always*/
     display: none;
 }
 
-#start{
+#start{ 
     display: block;
     border-radius: 30px;
     margin: 0;
-    
-    
-    
-
 }
 
-#startGame{
+
+
+
+
+
+/* #startGame{
     height: 100%;
     width: 100%;
     background-image: url(startTemple.png);
-    
 }
 
 #startText{
@@ -69,6 +59,5 @@ canvas {
     background-color: antiquewhite; 
     opacity: 70%;
        
-    
 }
-
+ */
